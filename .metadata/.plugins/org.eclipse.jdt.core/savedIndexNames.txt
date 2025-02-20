@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/home/lucas/Documents/development/java/udemy_nelio_alves/.metadata/.plugins/org.eclipse.jdt.core
+2787071484.index
+1068784082.index
+1865797976.index
+541834194.index

@@ -1,0 +1,34 @@
+package entities;
+
+public class Account {
+	private double withdrawTax = 5.00;
+	private int numberAccount;
+	private String nameAccount;
+	private double depositValue;
+	
+	public Account(int numberAccount, String nameAccount) {
+		super();
+		this.numberAccount = numberAccount;
+		this.nameAccount = nameAccount;		
+	}
+
+	public int getNumberAccount() {
+		return numberAccount;
+	}
+
+	public String getNameAccount() {
+		return nameAccount;
+	}
+
+	public void setNameAccount(String nameAccount) {
+		this.nameAccount = nameAccount;
+	}
+
+	public double getDepositValue() {
+		return depositValue;
+	}
+
+	
+	
+	
+}

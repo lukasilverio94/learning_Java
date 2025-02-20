@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;lists&apos; to &apos;application&apos;&#x0A;- Original project: &apos;lists&apos;&#x0A;- Original element: &apos;lists/src/lists&apos;&#x0A;- Renamed element: &apos;lists/src/application&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;lists&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;lists" name="application" qualified="false" references="true" stamp="1740065730480" textual="false" version="1.0"/>
+</session>
