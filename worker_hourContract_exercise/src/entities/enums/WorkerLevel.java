@@ -1,4 +1,4 @@
-package entitities.enums;
+package entities.enums;
 
 public enum WorkerLevel {
 	JUNIOR,

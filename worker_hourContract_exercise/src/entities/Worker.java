@@ -1,13 +1,11 @@
-package entitites;
+package entities;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 
-import entitities.Departament;
-import entitities.HourContract;
-import entitities.enums.WorkerLevel;
+import entities.enums.WorkerLevel;
 
 public class Worker {
 	private String name;

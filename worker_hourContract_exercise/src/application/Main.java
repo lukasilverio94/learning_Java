@@ -5,10 +5,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import entitites.Worker;
-import entitities.Departament;
-import entitities.HourContract;
-import entitities.enums.WorkerLevel;
+import entities.Departament;
+import entities.HourContract;
+import entities.Worker;
+import entities.enums.WorkerLevel;
 
 public class Main {
 
