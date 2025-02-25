@@ -26,18 +26,18 @@ public class Program {
 			System.out.print("Name: ");
 			String name = sc.nextLine();
 			System.out.print("Salary: ");
-			Double salary = sc.nextDouble();		
+			Double salary = sc.nextDouble();
 
 			Employee employee = new Employee(id, name, salary);
 			employeeList.add(employee);
 		}
-		
+
 		System.out.println();
 		System.out.print("Enter the employee id that will have salary increase: ");
 		int idSalaryToBeIncreased = sc.nextInt();
 
 		Employee emp = employeeList.stream().filter(x -> x.getId() == idSalaryToBeIncreased).findFirst().orElse(null);
-		
+
 		if (emp == null) {
 			System.out.println("This id does not exist!");
 		} else {
@@ -45,7 +45,7 @@ public class Program {
 			double percentage = sc.nextDouble();
 			emp.increaseSalary(percentage);
 		}
-		
+
 		System.out.println();
 		// Printing List of Employees
 		System.out.println("List of employees: ");
@@ -55,10 +55,10 @@ public class Program {
 
 		sc.close();
 	}
-	
+
 	// Alternative to the 1 line stream + filter method
 	// To use it, change above the logic as well.
-	
+
 //	public static int findPositionIndexOnListById(List<Employee> list, int id) {
 //		for (int i = 0 ; i < list.size(); i++) {
 //			if(list.get(i).getId() == id) {
@@ -67,7 +67,4 @@ public class Program {
 //		}
 //		return -1;
 //	}
-	
-	
-
 }
