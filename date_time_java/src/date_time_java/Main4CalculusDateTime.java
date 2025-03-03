@@ -50,7 +50,7 @@ public class Main4CalculusDateTime {
 
 		// Calcular duration
 		Duration t1 = Duration.between(pastWeekLocalDate.atStartOfDay(), d04.atStartOfDay());
-		Duration t2 = Duration.between(pastWeekLocalDate.atStartOfDay(), d05); )
+		Duration t2 = Duration.between(pastWeekLocalDate.atStartOfDay(), d05.minusMonths(3));
 		Duration t3 = Duration.between(pastWeekInstant, d06);
 		Duration t4 = Duration.between(d06, pastWeekInstant);
 
