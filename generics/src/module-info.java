@@ -4,5 +4,5 @@
 /**
  * 
  */
-module problem1 {
+module generics {
 }
