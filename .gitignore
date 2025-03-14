@@ -1,12 +1,16 @@
 # Compiled class file
 *.class
 
+# Idea
+/.idea
 # Log file
 *.log
 **/*.pdf
 # BlueJ files
 *.ctxt
 
+# Folders
+generics_challenge/
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
