@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 public class Program {
 	public static void main(String[] args) {
 
-		List<Integer> list = Arrays.asList(3, 4, 5, 10, 17);
+		List<Integer> list = Arrays.asList(3, 4, 5, 10, 7);
 		
 		// first stream (list.stream() )
 		Stream<Integer> st1 = list.stream().map(x -> x * 10);
