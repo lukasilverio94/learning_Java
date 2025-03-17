@@ -15,9 +15,9 @@ public class Program {
 		list.add(new Product("Mouse", 50.00));
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
-		
-		List<String> namesInUppercase = list.stream().map(new UppercaseName()).collect(Collectors.toList());
-		
+
+		List<String> namesInUppercase = list.stream().map(Product::staticUpercaseName).collect(Collectors.toList());
+
 		namesInUppercase.forEach(System.out::println);
 	}
 
